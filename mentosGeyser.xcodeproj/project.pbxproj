@@ -165,7 +165,6 @@
 				0FEFFBC762D5FDB818E36400 /* Pods-mentosGeyserTests.debug.xcconfig */,
 				99C80D1A6B50589F37951A0E /* Pods-mentosGeyserTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -551,6 +550,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32R8ZWSZ8D;
 				INFOPLIST_FILE = mentosGeyser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -570,6 +570,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32R8ZWSZ8D;
 				INFOPLIST_FILE = mentosGeyser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
