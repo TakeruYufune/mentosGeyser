@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		02398BC824D85E840049C53E /* mentosGeyserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02398BC724D85E840049C53E /* mentosGeyserTests.swift */; };
 		02398BD324D85E840049C53E /* mentosGeyserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02398BD224D85E840049C53E /* mentosGeyserUITests.swift */; };
 		02398BEB24D8B81A0049C53E /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02398BEA24D8B81A0049C53E /* SubViewController.swift */; };
+		02398BED24D8BEB00049C53E /* 9737-coke.json in Resources */ = {isa = PBXBuildFile; fileRef = 02398BEC24D8BEAF0049C53E /* 9737-coke.json */; };
 		468B5A298BD3D70FF8A6BED8 /* Pods_mentosGeyser_mentosGeyserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D856372B93C9BD784C5C36E /* Pods_mentosGeyser_mentosGeyserUITests.framework */; };
 		988D06152091D360D91D4C48 /* Pods_mentosGeyser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D970E4A461C31096875DFE /* Pods_mentosGeyser.framework */; };
 		D785C3A8EBCA54786201335D /* Pods_mentosGeyserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6C605DBC098E3108702064 /* Pods_mentosGeyserTests.framework */; };
@@ -54,6 +55,7 @@
 		02398BD224D85E840049C53E /* mentosGeyserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentosGeyserUITests.swift; sourceTree = "<group>"; };
 		02398BD424D85E840049C53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02398BEA24D8B81A0049C53E /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		02398BEC24D8BEAF0049C53E /* 9737-coke.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9737-coke.json"; sourceTree = "<group>"; };
 		0FEFFBC762D5FDB818E36400 /* Pods-mentosGeyserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentosGeyserTests.debug.xcconfig"; path = "Target Support Files/Pods-mentosGeyserTests/Pods-mentosGeyserTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1196B82CDF86841F27F4A7C8 /* Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig"; path = "Target Support Files/Pods-mentosGeyser-mentosGeyserUITests/Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		81D970E4A461C31096875DFE /* Pods_mentosGeyser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mentosGeyser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 				02398BB424D85E7B0049C53E /* ViewController.swift */,
 				02398BB624D85E7B0049C53E /* Main.storyboard */,
 				02398BB924D85E840049C53E /* Assets.xcassets */,
+				02398BEC24D8BEAF0049C53E /* 9737-coke.json */,
 				02398BBB24D85E840049C53E /* LaunchScreen.storyboard */,
 				02398BBE24D85E840049C53E /* Info.plist */,
 				02398BEA24D8B81A0049C53E /* SubViewController.swift */,
@@ -182,6 +185,7 @@
 				02398BA924D85E7B0049C53E /* Sources */,
 				02398BAA24D85E7B0049C53E /* Frameworks */,
 				02398BAB24D85E7B0049C53E /* Resources */,
+				507622D1BA5C53D1771A0B8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,6 +223,7 @@
 				02398BCA24D85E840049C53E /* Sources */,
 				02398BCB24D85E840049C53E /* Frameworks */,
 				02398BCC24D85E840049C53E /* Resources */,
+				C567D33300AE3EFD6EC2AE28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,6 +286,7 @@
 				02398BBD24D85E840049C53E /* LaunchScreen.storyboard in Resources */,
 				02398BBA24D85E840049C53E /* Assets.xcassets in Resources */,
 				02398BB824D85E7B0049C53E /* Main.storyboard in Resources */,
+				02398BED24D8BEB00049C53E /* 9737-coke.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +329,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		507622D1BA5C53D1771A0B8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mentosGeyser/Pods-mentosGeyser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mentosGeyser/Pods-mentosGeyser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mentosGeyser/Pods-mentosGeyser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B028D6DBA009011386AE6E07 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +366,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C567D33300AE3EFD6EC2AE28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mentosGeyser-mentosGeyserUITests/Pods-mentosGeyser-mentosGeyserUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mentosGeyser-mentosGeyserUITests/Pods-mentosGeyser-mentosGeyserUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mentosGeyser-mentosGeyserUITests/Pods-mentosGeyser-mentosGeyserUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C94A3F29ABD2F0921A3E0D12 /* [CP] Check Pods Manifest.lock */ = {
