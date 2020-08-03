@@ -15,6 +15,7 @@
 		02398BBD24D85E840049C53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02398BBB24D85E840049C53E /* LaunchScreen.storyboard */; };
 		02398BC824D85E840049C53E /* mentosGeyserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02398BC724D85E840049C53E /* mentosGeyserTests.swift */; };
 		02398BD324D85E840049C53E /* mentosGeyserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02398BD224D85E840049C53E /* mentosGeyserUITests.swift */; };
+		02398BEB24D8B81A0049C53E /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02398BEA24D8B81A0049C53E /* SubViewController.swift */; };
 		468B5A298BD3D70FF8A6BED8 /* Pods_mentosGeyser_mentosGeyserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D856372B93C9BD784C5C36E /* Pods_mentosGeyser_mentosGeyserUITests.framework */; };
 		988D06152091D360D91D4C48 /* Pods_mentosGeyser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D970E4A461C31096875DFE /* Pods_mentosGeyser.framework */; };
 		D785C3A8EBCA54786201335D /* Pods_mentosGeyserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6C605DBC098E3108702064 /* Pods_mentosGeyserTests.framework */; };
@@ -52,6 +53,7 @@
 		02398BCE24D85E840049C53E /* mentosGeyserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mentosGeyserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02398BD224D85E840049C53E /* mentosGeyserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentosGeyserUITests.swift; sourceTree = "<group>"; };
 		02398BD424D85E840049C53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02398BEA24D8B81A0049C53E /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 		0FEFFBC762D5FDB818E36400 /* Pods-mentosGeyserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentosGeyserTests.debug.xcconfig"; path = "Target Support Files/Pods-mentosGeyserTests/Pods-mentosGeyserTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1196B82CDF86841F27F4A7C8 /* Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig"; path = "Target Support Files/Pods-mentosGeyser-mentosGeyserUITests/Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		81D970E4A461C31096875DFE /* Pods_mentosGeyser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mentosGeyser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 				02398BB924D85E840049C53E /* Assets.xcassets */,
 				02398BBB24D85E840049C53E /* LaunchScreen.storyboard */,
 				02398BBE24D85E840049C53E /* Info.plist */,
+				02398BEA24D8B81A0049C53E /* SubViewController.swift */,
 			);
 			path = mentosGeyser;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				02398BB524D85E7B0049C53E /* ViewController.swift in Sources */,
 				02398BB124D85E7B0049C53E /* AppDelegate.swift in Sources */,
 				02398BB324D85E7B0049C53E /* SceneDelegate.swift in Sources */,
+				02398BEB24D8B81A0049C53E /* SubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
