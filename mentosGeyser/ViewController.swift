@@ -8,10 +8,14 @@
 
 import UIKit
 import CoreMotion
+import Lottie
 
 class ViewController: UIViewController{
     
     let motionManager = CMMotionManager()
+    
+    //Lottie用
+    private var animationView: AnimationView?
 
 
     @IBOutlet weak var box: UIView!
@@ -29,6 +33,18 @@ class ViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+    //Lottie------------------------------
+        animationView = .init(name: "9737-coke")
+        
+        animationView!.frame = view.bounds
+        animationView!.contentMode = .scaleAspectFit
+        animationView!.animationSpeed = 1.0
+        view.addSubview(animationView!)
+        animationView!.play()
+        
+    //------------------------------------
         
         if motionManager.isAccelerometerAvailable {
             // intervalの設定 [sec]
@@ -50,10 +66,12 @@ class ViewController: UIViewController{
     }
     
     func outputAccelData(acceleration: CMAcceleration){
-        // 加速度センサー [G]
+        // 加速度センサー [G] 確認用
+        /*
         accX.text = String(format: "%06f", acceleration.x)
         accY.text = String(format: "%06f", acceleration.y)
         accZ.text = String(format: "%06f", acceleration.z)
+        */
         
         if abs(x - acceleration.x) > 0.3 || abs(y - acceleration.y) > 0.3 ||
         abs(z - acceleration.z) > 0.3{

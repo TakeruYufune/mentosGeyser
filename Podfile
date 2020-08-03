@@ -7,6 +7,8 @@ target 'mentosGeyser' do
 
   # Pods for mentosGeyser
 
+  pod 'lottie-ios'
+
   target 'mentosGeyserTests' do
     inherit! :search_paths
     # Pods for testing
