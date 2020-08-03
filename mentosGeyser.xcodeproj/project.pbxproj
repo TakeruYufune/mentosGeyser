@@ -15,6 +15,9 @@
 		02398BBD24D85E840049C53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02398BBB24D85E840049C53E /* LaunchScreen.storyboard */; };
 		02398BC824D85E840049C53E /* mentosGeyserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02398BC724D85E840049C53E /* mentosGeyserTests.swift */; };
 		02398BD324D85E840049C53E /* mentosGeyserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02398BD224D85E840049C53E /* mentosGeyserUITests.swift */; };
+		468B5A298BD3D70FF8A6BED8 /* Pods_mentosGeyser_mentosGeyserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D856372B93C9BD784C5C36E /* Pods_mentosGeyser_mentosGeyserUITests.framework */; };
+		988D06152091D360D91D4C48 /* Pods_mentosGeyser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D970E4A461C31096875DFE /* Pods_mentosGeyser.framework */; };
+		D785C3A8EBCA54786201335D /* Pods_mentosGeyserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6C605DBC098E3108702064 /* Pods_mentosGeyserTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		02398BCE24D85E840049C53E /* mentosGeyserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mentosGeyserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02398BD224D85E840049C53E /* mentosGeyserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentosGeyserUITests.swift; sourceTree = "<group>"; };
 		02398BD424D85E840049C53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FEFFBC762D5FDB818E36400 /* Pods-mentosGeyserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentosGeyserTests.debug.xcconfig"; path = "Target Support Files/Pods-mentosGeyserTests/Pods-mentosGeyserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1196B82CDF86841F27F4A7C8 /* Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig"; path = "Target Support Files/Pods-mentosGeyser-mentosGeyserUITests/Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81D970E4A461C31096875DFE /* Pods_mentosGeyser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mentosGeyser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D856372B93C9BD784C5C36E /* Pods_mentosGeyser_mentosGeyserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mentosGeyser_mentosGeyserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C80D1A6B50589F37951A0E /* Pods-mentosGeyserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentosGeyserTests.release.xcconfig"; path = "Target Support Files/Pods-mentosGeyserTests/Pods-mentosGeyserTests.release.xcconfig"; sourceTree = "<group>"; };
+		D118B6F5C6FF1721FC6963D9 /* Pods-mentosGeyser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentosGeyser.debug.xcconfig"; path = "Target Support Files/Pods-mentosGeyser/Pods-mentosGeyser.debug.xcconfig"; sourceTree = "<group>"; };
+		D22FAE1D27D1B10F50FD6DD9 /* Pods-mentosGeyser-mentosGeyserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentosGeyser-mentosGeyserUITests.release.xcconfig"; path = "Target Support Files/Pods-mentosGeyser-mentosGeyserUITests/Pods-mentosGeyser-mentosGeyserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F2476D90124F19E2A25ECCFC /* Pods-mentosGeyser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentosGeyser.release.xcconfig"; path = "Target Support Files/Pods-mentosGeyser/Pods-mentosGeyser.release.xcconfig"; sourceTree = "<group>"; };
+		FF6C605DBC098E3108702064 /* Pods_mentosGeyserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mentosGeyserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				988D06152091D360D91D4C48 /* Pods_mentosGeyser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D785C3A8EBCA54786201335D /* Pods_mentosGeyserTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				468B5A298BD3D70FF8A6BED8 /* Pods_mentosGeyser_mentosGeyserUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				02398BC624D85E840049C53E /* mentosGeyserTests */,
 				02398BD124D85E840049C53E /* mentosGeyserUITests */,
 				02398BAE24D85E7B0049C53E /* Products */,
+				587922D50539475177357A43 /* Pods */,
+				26A148974A21AAE14CDAA368 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = mentosGeyserUITests;
 			sourceTree = "<group>";
 		};
+		26A148974A21AAE14CDAA368 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81D970E4A461C31096875DFE /* Pods_mentosGeyser.framework */,
+				8D856372B93C9BD784C5C36E /* Pods_mentosGeyser_mentosGeyserUITests.framework */,
+				FF6C605DBC098E3108702064 /* Pods_mentosGeyserTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		587922D50539475177357A43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D118B6F5C6FF1721FC6963D9 /* Pods-mentosGeyser.debug.xcconfig */,
+				F2476D90124F19E2A25ECCFC /* Pods-mentosGeyser.release.xcconfig */,
+				1196B82CDF86841F27F4A7C8 /* Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig */,
+				D22FAE1D27D1B10F50FD6DD9 /* Pods-mentosGeyser-mentosGeyserUITests.release.xcconfig */,
+				0FEFFBC762D5FDB818E36400 /* Pods-mentosGeyserTests.debug.xcconfig */,
+				99C80D1A6B50589F37951A0E /* Pods-mentosGeyserTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02398BD724D85E840049C53E /* Build configuration list for PBXNativeTarget "mentosGeyser" */;
 			buildPhases = (
+				C94A3F29ABD2F0921A3E0D12 /* [CP] Check Pods Manifest.lock */,
 				02398BA924D85E7B0049C53E /* Sources */,
 				02398BAA24D85E7B0049C53E /* Frameworks */,
 				02398BAB24D85E7B0049C53E /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02398BDA24D85E840049C53E /* Build configuration list for PBXNativeTarget "mentosGeyserTests" */;
 			buildPhases = (
+				1B33FD3844C05F048722BF9F /* [CP] Check Pods Manifest.lock */,
 				02398BBF24D85E840049C53E /* Sources */,
 				02398BC024D85E840049C53E /* Frameworks */,
 				02398BC124D85E840049C53E /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02398BDD24D85E840049C53E /* Build configuration list for PBXNativeTarget "mentosGeyserUITests" */;
 			buildPhases = (
+				B028D6DBA009011386AE6E07 /* [CP] Check Pods Manifest.lock */,
 				02398BCA24D85E840049C53E /* Sources */,
 				02398BCB24D85E840049C53E /* Frameworks */,
 				02398BCC24D85E840049C53E /* Resources */,
@@ -253,6 +297,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B33FD3844C05F048722BF9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mentosGeyserTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B028D6DBA009011386AE6E07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mentosGeyser-mentosGeyserUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C94A3F29ABD2F0921A3E0D12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mentosGeyser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02398BA924D85E7B0049C53E /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		02398BD824D85E840049C53E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D118B6F5C6FF1721FC6963D9 /* Pods-mentosGeyser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +564,7 @@
 		};
 		02398BD924D85E840049C53E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2476D90124F19E2A25ECCFC /* Pods-mentosGeyser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +583,7 @@
 		};
 		02398BDB24D85E840049C53E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FEFFBC762D5FDB818E36400 /* Pods-mentosGeyserTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +606,7 @@
 		};
 		02398BDC24D85E840049C53E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C80D1A6B50589F37951A0E /* Pods-mentosGeyserTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +629,7 @@
 		};
 		02398BDE24D85E840049C53E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1196B82CDF86841F27F4A7C8 /* Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +650,7 @@
 		};
 		02398BDF24D85E840049C53E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D22FAE1D27D1B10F50FD6DD9 /* Pods-mentosGeyser-mentosGeyserUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
