@@ -75,7 +75,9 @@ class ViewController: UIViewController{
         
         if abs(x - acceleration.x) > 0.3 || abs(y - acceleration.y) > 0.3 ||
         abs(z - acceleration.z) > 0.3{
-            view.backgroundColor = UIColor.red
+            //デバッグ用の赤
+            //view.backgroundColor = UIColor.red
+            
             //shake判定点数を付与
             count += 1
             
