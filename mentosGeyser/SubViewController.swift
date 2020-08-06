@@ -11,20 +11,17 @@ import Lottie
 
 class SubViewController: UIViewController {
     
-    //Lottie用
-    private var animationView: AnimationView?
-
+    @IBOutlet weak var animationView: AnimationView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //Lottie------------------------------
-            animationView = .init(name: "splash2")
-            
+
             animationView!.frame = view.bounds
-            //animationView!.contentMode = .scaleAspectFit
+            animationView!.contentMode = .scaleAspectFit
             animationView!.loopMode = .loop
             animationView!.animationSpeed = 2.5
-            view.addSubview(animationView!)
             animationView!.play()
             
         //------------------------------------
