@@ -19,6 +19,8 @@
 		02398BED24D8BEB00049C53E /* 9737-coke.json in Resources */ = {isa = PBXBuildFile; fileRef = 02398BEC24D8BEAF0049C53E /* 9737-coke.json */; };
 		02398BF324D8CD4F0049C53E /* splash1.json in Resources */ = {isa = PBXBuildFile; fileRef = 02398BF224D8CD4F0049C53E /* splash1.json */; };
 		02398BF524D8D11B0049C53E /* splash2.json in Resources */ = {isa = PBXBuildFile; fileRef = 02398BF424D8D11B0049C53E /* splash2.json */; };
+		02398BFB24D8E24E0049C53E /* mentos.json in Resources */ = {isa = PBXBuildFile; fileRef = 02398BFA24D8E24E0049C53E /* mentos.json */; };
+		02398C0124D8E9640049C53E /* mentos_sub.json in Resources */ = {isa = PBXBuildFile; fileRef = 02398C0024D8E9640049C53E /* mentos_sub.json */; };
 		468B5A298BD3D70FF8A6BED8 /* Pods_mentosGeyser_mentosGeyserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D856372B93C9BD784C5C36E /* Pods_mentosGeyser_mentosGeyserUITests.framework */; };
 		988D06152091D360D91D4C48 /* Pods_mentosGeyser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D970E4A461C31096875DFE /* Pods_mentosGeyser.framework */; };
 		D785C3A8EBCA54786201335D /* Pods_mentosGeyserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6C605DBC098E3108702064 /* Pods_mentosGeyserTests.framework */; };
@@ -60,6 +62,8 @@
 		02398BEC24D8BEAF0049C53E /* 9737-coke.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9737-coke.json"; sourceTree = "<group>"; };
 		02398BF224D8CD4F0049C53E /* splash1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash1.json; sourceTree = "<group>"; };
 		02398BF424D8D11B0049C53E /* splash2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash2.json; sourceTree = "<group>"; };
+		02398BFA24D8E24E0049C53E /* mentos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mentos.json; sourceTree = "<group>"; };
+		02398C0024D8E9640049C53E /* mentos_sub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mentos_sub.json; sourceTree = "<group>"; };
 		0FEFFBC762D5FDB818E36400 /* Pods-mentosGeyserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentosGeyserTests.debug.xcconfig"; path = "Target Support Files/Pods-mentosGeyserTests/Pods-mentosGeyserTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1196B82CDF86841F27F4A7C8 /* Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig"; path = "Target Support Files/Pods-mentosGeyser-mentosGeyserUITests/Pods-mentosGeyser-mentosGeyserUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		81D970E4A461C31096875DFE /* Pods_mentosGeyser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mentosGeyser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +136,8 @@
 				02398BEC24D8BEAF0049C53E /* 9737-coke.json */,
 				02398BF224D8CD4F0049C53E /* splash1.json */,
 				02398BF424D8D11B0049C53E /* splash2.json */,
+				02398BFA24D8E24E0049C53E /* mentos.json */,
+				02398C0024D8E9640049C53E /* mentos_sub.json */,
 				02398BBB24D85E840049C53E /* LaunchScreen.storyboard */,
 				02398BBE24D85E840049C53E /* Info.plist */,
 				02398BEA24D8B81A0049C53E /* SubViewController.swift */,
@@ -295,6 +301,8 @@
 				02398BF524D8D11B0049C53E /* splash2.json in Resources */,
 				02398BB824D85E7B0049C53E /* Main.storyboard in Resources */,
 				02398BED24D8BEB00049C53E /* 9737-coke.json in Resources */,
+				02398C0124D8E9640049C53E /* mentos_sub.json in Resources */,
+				02398BFB24D8E24E0049C53E /* mentos.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

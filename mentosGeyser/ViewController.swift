@@ -13,9 +13,6 @@ import Lottie
 class ViewController: UIViewController{
     
     let motionManager = CMMotionManager()
-    
-    //Lottie用
-    private var animationView: AnimationView?
 
 
     @IBOutlet weak var box: UIView!
@@ -25,6 +22,13 @@ class ViewController: UIViewController{
     @IBOutlet weak var accZ: UILabel!
     @IBOutlet weak var splash: UILabel!
     
+    @IBAction func mentosSwitch(_ sender: UISwitch) {
+        if sender.isOn{
+            mentosAnimate()
+        }
+    }
+    
+    @IBOutlet weak var animationView: AnimationView!
     
     var x = 0.0
     var y = 0.0
@@ -36,12 +40,10 @@ class ViewController: UIViewController{
         
         
     //Lottie------------------------------
-        animationView = .init(name: "9737-coke")
         
         animationView!.frame = view.bounds
         animationView!.contentMode = .scaleAspectFit
         animationView!.animationSpeed = 1.0
-        view.addSubview(animationView!)
         animationView!.play()
         
     //------------------------------------
@@ -57,13 +59,37 @@ class ViewController: UIViewController{
             })
         
         }
+        
+        
     }
     
-    private func animateFrame() {
+    private func splashAnimate() {
         UIView.animate(withDuration: 1.0, delay: 0, options: .curveLinear, animations: {
             self.box.frame.origin.y -= 10
         }, completion: nil)
     }
+    
+    func mentosAnimate() {
+        animationView.removeFromSuperview()
+        
+        var mentosView: AnimationView?
+        
+        mentosView = .init(name: "mentos")
+        mentosView!.frame = view.bounds
+        mentosView!.contentMode = .scaleAspectFit
+        mentosView!.animationSpeed = 1.5
+        view.addSubview(mentosView!)
+        mentosView!.play { finished in
+            if finished{
+                mentosView!.removeFromSuperview()
+                self.stopAccelerometer()
+                self.performSegue(withIdentifier: "splash", sender: nil)
+            }
+        }
+        
+    }
+ 
+ 
     
     func outputAccelData(acceleration: CMAcceleration){
         // 加速度センサー [G] 確認用
@@ -81,17 +107,22 @@ class ViewController: UIViewController{
             //shake判定点数を付与
             count += 1
             
-            animateFrame()
-        } else {
+            //画面外のboxを動かす
+            splashAnimate()
+        }
+        /* デバッグ用
+        else {
             view.backgroundColor = UIColor.white
         }
+         */
         
         x = acceleration.x
         y = acceleration.y
         z = acceleration.z
         
         if count == 100{
-            splash.text = "SPLASH!!"
+            //splash.text = "SPLASH!!"
+            stopAccelerometer()
             self.performSegue(withIdentifier: "splash", sender: nil)
         }
         
