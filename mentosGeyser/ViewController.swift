@@ -3,7 +3,7 @@
 //  mentosGeyser
 //
 //  Created by Takeru Yufune on 2020/08/04.
-//  Copyright © 2020 Takeru Yufune. All rights reserved.
+//  Copyright © 2020 Hack'z inc.   All rights reserved.
 //
 
 import UIKit
